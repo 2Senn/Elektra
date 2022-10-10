@@ -1,6 +1,6 @@
 #Elektra
 
-## MArkdown Note taking tool
+## Markdown Note taking tool
 
 ![image](https://user-images.githubusercontent.com/59489465/194854838-ec11ef17-487a-4263-b9c0-7450683a9d88.png)
 
