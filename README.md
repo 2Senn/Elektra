@@ -1,13 +1,10 @@
-# Markdown Editor Tutorial
+#Elektra
 
-![screenshot](./doc/screenshot.png)
+## MArkdown Note taking tool
 
-A tutorial for building a beautiful Markdown editor
+![image](https://user-images.githubusercontent.com/59489465/194854838-ec11ef17-487a-4263-b9c0-7450683a9d88.png)
 
-## Sponsor
 
-[![Inkdrop](./doc/inkdrop-logo.png)](https://www.inkdrop.app/)  
-A cross-platform Markdown note-taking app
 
 ## Stack
 
@@ -101,9 +98,6 @@ When running building, environment variables are loaded from the following files
 
 **Note:** only variables prefixed with `VITE_` are exposed to your code (e.g. `VITE_SOME_KEY=123`) and `SOME_KEY=123` will not.  you can access `VITE_SOME_KEY` using `import.meta.env.VITE_SOME_KEY`. This is because the `.env` files may be used by some users for server-side or build scripts and may contain sensitive information that should not be exposed in code shipped to browsers.
 
-## Author
-
-Takuya Matsuyama ([@craftzdog](https://github.com/craftzdog))
 
 
 [vite]: https://github.com/vitejs/vite/
