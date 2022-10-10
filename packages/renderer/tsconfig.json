@@ -1,27 +1,22 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "sourceMap": false,
-    "moduleResolution": "Node",
-    "skipLibCheck": true,
-    "strict": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "types": ["node"],
     "baseUrl": ".",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
     "paths": {
-      "#preload": ["../preload/src/index"],
-      "/@/*": ["./src/*"]
+      "/@/*": [
+        "./src/*"
+      ]
     },
     "lib": ["ESNext", "dom", "dom.iterable"]
   },
+
   "include": [
-    "src/**/*.vue",
     "src/**/*.ts",
     "src/**/*.tsx",
     "types/**/*.d.ts",
-    "../../types/**/*.d.ts"
-  ],
-  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
+    "../../types/**/*.d.ts",
+    "../preload/types/electron-api.d.ts"
+  ]
 }
